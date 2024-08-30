@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("enter your birthday date");
+    scanf("%d", &a);
+    if (a < 10) {
+        printf("The number is %d is a single digit", a);
+        if (a %2 == 0)
+          printf("\nThe number is even");
+        else
+          printf("\nThe number is odd");
+    }
+int main() {
+    if (a > 9) {
+      printf("The number %d is double digit", a);
+      if (a %2 == 0)
+        printf("\nThe number is even");
+      else
+        printf("\nThe number is odd");
+    }
+    return 0;
+    return 0;
+}}
