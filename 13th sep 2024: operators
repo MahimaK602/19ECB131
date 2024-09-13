@@ -1,0 +1,38 @@
+// Opeators in C
+#include <stdio.h>
+
+int main() {
+    float a= 3.5f, b= 5;
+    
+    // Arithmetic Operataors
+    printf("Arithmetic Operataors\n");
+    printf("%f + %f = %f\n", a, b, a+b);
+    printf("%f - %f = %f\n", a, b, a-b);
+    printf("%f * %f = %f\n", a, b, a*b);
+    printf("%f / %f = %f\n", a, b, (a/b));
+   
+    
+    // Relational Operators
+    printf("Relational Operataors\n");
+    printf("%f < %f = %d\n", a, b, a<b);
+    printf("%f > %f = %d\n", a, b, a>b);
+    printf("%f == %f = %d\n", a, b, a==b);
+    printf("%f != %f = %d\n\n", a, b, a!=b);
+
+    // Logical Operators
+    printf("Logical Operataors\n");
+    printf("AND %f && %f = %f\n", a, b, a && b);
+    printf("OR %f || %f = %f\n", a, b, a || b);
+    printf("NOT %f = %f\n\n", a, !a);
+    
+
+    
+    //Conditional Operator - Ternary operator
+    
+  if(a>b)
+   printf("a is greater than b");
+   else
+       printf("b is greater than a");
+    
+    return 0;
+}
