@@ -1,0 +1,13 @@
+#include <stdio.h>
+void calculatesum(){
+    int x = printf("number1:");
+          scanf("%d", &x);
+    int y = printf("number2:");
+          scanf("%d",&y);
+    int sum = x+y;
+    printf("the sum of x+y is: %d", sum);
+}
+ int main(){
+     calculatesum();
+     return 0;
+ }
