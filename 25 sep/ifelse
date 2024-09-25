@@ -1,0 +1,17 @@
+#include <stdio.h>
+void momo_id(){
+     int x = printf("enter a number:");
+       scanf("%d",&x);
+     int y = printf("enter a number:");
+        scanf("%d",&y);
+     int sum = x+y;
+    printf("  ", sum);
+       if (sum > 10)
+        printf("cant be defined");
+        else
+        printf("the number derived from the sum is valid");
+}
+int main(){
+    momo_id();
+        return 0;
+}
