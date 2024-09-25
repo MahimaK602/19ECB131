@@ -1,0 +1,15 @@
+#include <stdio.h>
+void calculatesum(){
+    int x = printf("ENTER YOUR AGE:");
+          scanf("%d", &x);
+    int y = printf("ENTER LAST THREE DIGITS OF YOUR PHONE NUMBER:");
+          scanf("%d",&y);
+    int product = x*y;
+    int division = x/y; 
+    printf("the product of x and y is: %d \n", product);
+    printf("the division of x and y is: %d \n", division);
+}
+ int main(){
+     calculatesum();
+     return 0;
+ }
